@@ -1,0 +1,42 @@
+/* style.css */
+
+/* Pengaturan umum untuk halaman */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Gaya untuk header */
+h1 {
+    font-size: 2.5rem;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+/* Pengaturan untuk Dropzone */
+#myDropzone {
+    border: 2px dashed #28a745;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.dropzone {
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk hasil prediksi */
+.alert-info {
+    font-size: 1.2rem;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 40px;
+}
