@@ -3,4 +3,5 @@ gunicorn
 opencv-python
 numpy
 pillow
-tensorflow
+tensorflow==2.16.0
+
