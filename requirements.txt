@@ -3,4 +3,5 @@ gunicorn
 opencv-python
 numpy
 pillow
-tensorflow==2.x.x
+tensorflow==2.11.0
+
