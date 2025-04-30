@@ -56,5 +56,9 @@ def predict():
     # Mengembalikan hasil prediksi dalam format JSON
     return {'prediction': predicted_class_name}
 
+
+# ...existing code...
+
+    
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=10000)  # port bebas, Render override nanti
+    app.run(host="0.0.0.0", port=5000)  # port bebas, Render override nanti
