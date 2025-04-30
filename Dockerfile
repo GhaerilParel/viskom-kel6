@@ -16,7 +16,8 @@ COPY requirements.txt /app/
 # Membuat virtual environment di dalam container
 RUN python -m venv /opt/venv
 
-# Menggunakan pip dari virtual environment untuk menginstal dependensi
+# Memperbarui pip di virtual environment dan menginstal dependensi
+RUN /opt/venv/bin/pip install --upgrade pip
 RUN /opt/venv/bin/pip install -r /app/requirements.txt
 
 # Menyalin seluruh aplikasi dari proyek lokal ke dalam container
